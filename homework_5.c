@@ -24,22 +24,19 @@ int main(){
 	int price = 9;
 	int discount = 15;
 	float res_cash = cash(kg, price, discount);
-	printf("Total price of %d kg by %d nis/kg with discount of %d %% is %.2f nis\n", kg, price, discount, res_cash);
+	printf("Total price of %d kg by %d nis/kg with discount of %d %% has %.2f nis\n", kg, price, discount, res_cash);
 
 	return 0;
 }
 
 float percent(int num, int per){
-	float res;
-	return res = num / 100.0 * per;
+	return num / 100.0 * per;
 }
 
 float salary(int hour, float wage, int bonus){
-	float res;
-	return res = hour * wage * (1.0 + (bonus / 100.0));
+	return hour * wage * (1.0 + (bonus / 100.0));
 }
 
 float cash(int kg, int price, int discount){
-	float res;
-	return res = price * kg * (1.0 - discount / 100.0);
+	return price * kg * (1.0 - discount / 100.0);
 }
