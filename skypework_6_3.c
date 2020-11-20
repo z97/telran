@@ -43,7 +43,7 @@ int main(){
 
 	a > b ? printf("Hello \n") : printf("Bye \n");
 
-	c = a == b ? 6: 7;
+	c = a == b ? 6 : 7;
 	printf("c = %d \n", c);
 
 	c = a !=b  ? 6 : 7;
