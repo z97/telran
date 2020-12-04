@@ -58,3 +58,21 @@ void leumi(int day){
 		printf("Wrong day\n");
 	}
 }
+
+void leumi2(int day){
+	case 1:
+	case 3:
+	case 5:
+		printf("8.30-15.30\n");
+		break;
+	case 2:
+	case 4:
+		printf("8.30-15.00\n");
+		break;
+	case 6:
+	case 7:
+		printf("closed \n");
+		break;
+	default:
+		printf("E");
+}
