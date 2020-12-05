@@ -2,6 +2,7 @@
 
 void leumi(int day);
 void schedular(int week);
+void leumi2(int day);
 
 int main(){
 	leumi(5); // input number of day, week starts from sunday(1)
@@ -60,19 +61,20 @@ void leumi(int day){
 }
 
 void leumi2(int day){
-	case 1:
-	case 3:
-	case 5:
-		printf("8.30-15.30\n");
-		break;
-	case 2:
-	case 4:
-		printf("8.30-15.00\n");
-		break;
-	case 6:
-	case 7:
-		printf("closed \n");
-		break;
-	default:
-		printf("E");
-}
+	switch(day){
+		case 1:
+		case 3:
+		case 5:
+			printf("8.30-15.30\n");
+			break;
+		case 2:
+		case 4:
+			printf("8.30-15.00\n");
+			break;
+		case 6:
+		case 7:
+			printf("closed \n");
+			break;
+		default:
+			printf("E");
+}}
